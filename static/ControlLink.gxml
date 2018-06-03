@@ -1,0 +1,2265 @@
+﻿<gpx:document version="133C90D" data-type="5" directory="C:\Runtimeprj\ControlLink_800x600\data" authorization-level="3" screen-saver="300" rect="0 0 800 600" window-title="WINPC32" grid-size="10" app-dir="1" color-void="808080" color-paper="FFFFFF" syste-menu="1" language="original">
+	<style-sheet>
+		<language-table size="1">
+			<0>original</></>
+		<key-text>
+			<1 original="Output"></>
+			<3 original="Value Dispaly"></>
+			<4 original="Discrete"></>
+			<5 original="Please input int. number 0~100"></>
+			<6 original="Analog (Int.)"></>
+			<7 original="Please input scale number 0.0~100.0"></>
+			<8 original="Analog (Int. Scale)"></>
+			<9 original="Please input float number 0.0~100.0"></>
+			<10 original="Analog (float)"></>
+			<11 original="Please input string. ( 0 ~ 12 characters )"></>
+			<12 original="String Input"></>
+			<13 original="ON"></>
+			<14 original="OFF"></>
+			<15 original="String Output"></>
+			<16 original="Input"></>
+			<17 original="Display"></>
+			<18 original="User<br>Input"></>
+			<21 original="Color<br>Control"></>
+			<27 original="Figure<br>Control"></>
+			<30 original="Misc-<br>ellaneous"></>
+			<34 original="中文"></>
+			<35 original="English"></>
+			<40 original="Sample Project"></>
+			<41 original="範例專案"></>
+			<46 original="Control Link"></>
+			<52 original="User priority :"></>
+			<54 original="None"></>
+			<55 original="End User"></>
+			<56 original="Maintenance"></>
+			<57 original="System Int."></>
+			<58 original="Administrator"></>
+			<60 original="User Input"></>
+			<63 original="Slider"></>
+			<64 original="Push Buttons"></>
+			<65 original="Please push either button."></>
+			<66 original="Set ON"></>
+			<67 original="Set OFF"></>
+			<68 original="ON"></>
+			<69 original="OFF"></>
+			<71 original="Please input number 0~100"></>
+			<73 original="Please input scale number 0.0~100.0"></>
+			<75 original="Please input float 0.0~100.0"></>
+			<77 original="Please input string. ( 0 ~ 12 characters )"></>
+			<78 original="String"></>
+			<79 original="Horizontal"></>
+			<80 original="0"></>
+			<81 original="100"></>
+			<82 original="50"></>
+			<86 original="Vertical"></>
+			<87 original="Planar"></>
+			<88 original=" Direct"></>
+			<90 original="Reverse"></>
+			<91 original="Toggle"></>
+			<92 original="Set"></>
+			<93 original="Reset"></>
+			<94 original="ON"></>
+			<95 original="OFF"></>
+			<96 original="ON"></>
+			<97 original="OFF"></>
+			<98 original="ON"></>
+			<99 original="OFF"></>
+			<100 original="ON"></>
+			<101 original="OFF"></>
+			<102 original="Action"></>
+			<103 original="On Down"></>
+			<104 original="While Down"></>
+			<105 original="On Up"></>
+			<106 original="Show window"></>
+			<107 original="Hide window"></>
+			<110 original="Miscellaneous"></>
+			<112 original="Visibility"></>
+			<113 original="Button"></>
+			<114 original="Blink"></>
+			<115 original="Orientation"></>
+			<116 original="Disable"></>
+			<117 original="Password"></>
+			<118 original="Admin."></>
+			<121 original="ON"></>
+			<122 original="OFF"></>
+			<123 original="Please input number 0 ~ 100"></>
+			<124 original="Logout"></>
+			<125 original="Sys. Int."></>
+			<126 original="Maint."></>
+			<127 original="EndUser"></>
+			<128 original="Figure Control"></>
+			<130 original="Object Size"></>
+			<131 original="Location"></>
+			<132 original="Percent Fill"></>
+			<133 original="Width"></>
+			<134 original="Height"></>
+			<135 original="Area"></>
+			<148 original="Radiation"></>
+			<149 original="Sweep"></>
+			<150 original="Color Control"></>
+			<152 original="Fill Color"></>
+			<153 original="Line Color"></>
+			<154 original="Text Color"></>
+			<156 original="Analog"></>
+			<157 original="Discrete Alarm"></>
+			<158 original="Alarm"></>
+			<159 original="Analog Alarm"></>
+			<160 original="LoLo"></>
+			<161 original="Lo"></>
+			<162 original="HiHi"></>
+			<163 original="Hi"></>
+			<182 original="Text"></></>
+		<ss:font size="12">
+			<1 height="-19" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<2 height="-16" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<3 facename="MS Sans Serif"></>
+			<4 height="-24" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<5 height="-21" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<6 height="-13" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<7 height="-15" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<8 height="-17" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<9 height="-29" weight="700" out-precision="3" pitchAndfamily="34"></>
+			<10 height="-13" out-precision="3" pitchAndfamily="34"></>
+			<11 height="-16" out-precision="3" pitchAndfamily="34"></>
+			<12 height="-16" pitchAndfamily="34" facename="MS Sans Serif"></></></>
+	<DLLVersion>
+		<_Button size="28"></>
+		<_Ellipse size="3"></>
+		<_HVLine size="93"></>
+		<_Rectangle size="74"></>
+		<_Text size="146"></>
+		<BUTTON size="1"></>
+		<CLOCK size="1"></>
+		<FRAME size="1"></>
+		<HSCROLL size="12"></>
+		<MSG version="203" size="12"></>
+		<PageFrame size="7"></>
+		<SWITCHRK size="1"></>
+		<VSCROLL size="3"></></>
+	<application-script>
+		<init>bA0022 = 1; /* Set Reverse On */ </></>
+	<gpx:object page-title="Button" rect="0 492 800 600" object-name="PageFrame" tagname="bA0001">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>Window Button</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" window-type="0" title-size="8" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="115 10 226 91" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0"></>
+				<control-link>
+					<window_switch>
+						<Array name="show_window" size="1">
+							<0>Window2</></>
+						<Array name="hide_window" size="4">
+							<0>Window3</>
+							<1>Window4</>
+							<2>Window5</>
+							<3>Window1</></></></></></>
+		<gpx:object rect="227 10 338 91" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0"></>
+				<control-link>
+					<window_switch>
+						<Array name="show_window" size="1">
+							<0>Window3</></>
+						<Array name="hide_window" size="4">
+							<0>Window2</>
+							<1>Window4</>
+							<2>Window5</>
+							<3>Window1</></></></></></>
+		<gpx:object rect="339 10 450 91" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0"></>
+				<control-link>
+					<window_switch>
+						<Array name="show_window" size="1">
+							<0>Window4</></>
+						<Array name="hide_window" size="4">
+							<0>Window2</>
+							<1>Window3</>
+							<2>Window5</>
+							<3>Window1</></></></></></>
+		<gpx:object rect="451 10 562 91" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0"></>
+				<control-link>
+					<window_switch>
+						<Array name="show_window" size="1">
+							<0>Window5</></>
+						<Array name="hide_window" size="4">
+							<0>Window2</>
+							<1>Window3</>
+							<2>Window4</>
+							<3>Window1</></></></></></>
+		<gpx:object rect="3 10 114 91" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0"></>
+				<control-link>
+					<window_switch>
+						<Array name="show_window" size="1">
+							<0>Window1</></>
+						<Array name="hide_window" size="4">
+							<0>Window2</>
+							<1>Window3</>
+							<2>Window4</>
+							<3>Window5</></></></></></>
+		<gpx:object rect="0 0 801 2" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="1 1"></>
+						<1 point2f="800 1"></></></></></>
+		<gpx:object rect="0 3 801 5" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="1 4"></>
+						<1 point2f="800 4"></></></></></>
+		<gpx:object rect="25 27 90 74" object-name="MSG">
+			<gpx:cgbject version="CB" tagname0="wR0576" text="14" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+				<font original="1"></></>
+			<Array name="MessageIndex" size="2">
+				<0 message="18" color="800000" font-align="17">
+					<font original="1"></></>
+				<1 message="18" color="800000" font-align="17">
+					<font original="1"></></></></>
+		<gpx:object rect="136 27 206 74" object-name="MSG">
+			<gpx:cgbject version="CB" tagname0="wR0576" text="17" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+				<font original="1"></></>
+			<Array name="MessageIndex" size="2">
+				<0 message="21" color="800000" font-align="17">
+					<font original="1"></></>
+				<1 message="21" color="800000" font-align="17">
+					<font original="1"></></></></>
+		<gpx:object rect="249 39 314 68" object-name="MSG">
+			<gpx:cgbject version="CB" tagname0="wR0576" text="1A" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+				<font original="1"></></>
+			<Array name="MessageIndex" size="2">
+				<0 message="1" color="800000" font-align="17">
+					<font original="1"></></>
+				<1 message="1" color="800000" font-align="17">
+					<font original="1"></></></></>
+		<gpx:object rect="359 27 429 74" object-name="MSG">
+			<gpx:cgbject version="CB" tagname0="wR0576" text="1D" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+				<font original="1"></></>
+			<Array name="MessageIndex" size="2">
+				<0 message="27" color="800000" font-align="17">
+					<font original="1"></></>
+				<1 message="27" color="800000" font-align="17">
+					<font original="1"></></></></>
+		<gpx:object rect="459 27 554 74" object-name="MSG">
+			<gpx:cgbject version="CB" tagname0="wR0576" text="20" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+				<font original="1"></></>
+			<Array name="MessageIndex" size="2">
+				<0 message="30" color="800000" font-align="17">
+					<font original="1"></></>
+				<1 message="30" color="800000" font-align="17">
+					<font original="1"></></></></></>
+	<gpx:object page-title="Title" rect="0 0 800 80" object-name="PageFrame" tagname="bA0000">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>Window Title</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" title-size="8" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="610 0 803 16" object-name="CLOCK">
+			<gpx:cgbject text-align="17" date="1" drawing-OP="8800C6">
+				<font original="8"></></></>
+		<gpx:object rect="0 75 801 77" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="1 76"></>
+						<1 point2f="800 76"></></></></></>
+		<gpx:object rect="-1 78 800 80" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="0 79"></>
+						<1 point2f="799 79"></></></></></>
+		<gpx:object rect="671 46 790 72" object-name="BUTTON">
+			<gpx:cgbject tagname0="wR0576" text-align="1" button-style="2" x-max="1" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="687 47 777 72" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject group-type="1"></></>
+			<gpx:object rect="688 48 777 72" object-name="MSG">
+				<gpx:cgbject version="CB" tagname0="wR0576" text="24" Transparent="1" text-color="FFFFFF" text-align="17" drawing-OP="8800C6" text-format="80000259">
+					<font original="1"></></>
+				<Array name="MessageIndex" size="2">
+					<0 message="34" color="FFFFFF" font-align="17">
+						<font original="1"></></>
+					<1 message="35" color="FFFFFF" font-align="17">
+						<font original="1"></></></></>
+			<gpx:object rect="687 47 776 71" object-name="MSG">
+				<gpx:cgbject version="CB" tagname0="wR0576" text="27" Transparent="1" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+					<font original="1"></></>
+				<Array name="MessageIndex" size="2">
+					<0 message="34" color="800000" font-align="17">
+						<font original="1"></></>
+					<1 message="35" color="800000" font-align="17">
+						<font original="1"></></></></></>
+		<gpx:object rect="265 4 490 39" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject group-type="1"></></>
+			<gpx:object rect="266 5 490 39" object-name="MSG">
+				<gpx:cgbject version="CB" tagname0="wR0576" text="2A" Transparent="1" text-color="FFFFFF" text-align="17" drawing-OP="8800C6" text-format="80000259">
+					<font original="9"></></>
+				<Array name="MessageIndex" size="2">
+					<0 message="40" color="FFFFFF" font-align="17">
+						<font original="9"></></>
+					<1 message="41" color="FFFFFF" font-align="17">
+						<font original="9"></></></></>
+			<gpx:object rect="265 4 489 38" object-name="MSG">
+				<gpx:cgbject version="CB" tagname0="wR0576" text="2D" Transparent="1" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+					<font original="9"></></>
+				<Array name="MessageIndex" size="2">
+					<0 message="40" color="800000" font-align="17">
+						<font original="9"></></>
+					<1 message="41" color="800000" font-align="17">
+						<font original="9"></></></></></>
+		<gpx:object rect="266 37 490 72" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject group-type="1"></></>
+			<gpx:object rect="266 38 490 72" object-name="MSG">
+				<gpx:cgbject version="CB" tagname0="wR0576" text="30" Transparent="1" text-color="FFFFFF" text-align="17" drawing-OP="8800C6" text-format="80000259">
+					<font original="4"></></>
+				<Array name="MessageIndex" size="2">
+					<0 message="46" color="FFFFFF" font-align="17">
+						<font original="4"></></>
+					<1 message="46" color="FFFFFF" font-align="17">
+						<font original="4"></></></></>
+			<gpx:object rect="266 37 490 71" object-name="MSG">
+				<gpx:cgbject version="CB" tagname0="wR0576" text="33" Transparent="1" text-color="800000" text-align="17" drawing-OP="8800C6" text-format="80000259">
+					<font original="4"></></>
+				<Array name="MessageIndex" size="2">
+					<0 message="46" color="800000" font-align="17">
+						<font original="4"></></>
+					<1 message="46" color="800000" font-align="17">
+						<font original="4"></></></></></>
+		<gpx:object rect="671 18 790 44" object-name="FRAME">
+			<gpx:cgbject color-2="0" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="577 19 668 38" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="578.500 20.500 668.500 38.500" object-name="_Text">
+				<gpx:sg translate="1 1" message="52">
+					<gpx:cgbject Transparent="1" text-color="FFFFFF"></>
+					<font original="6"></></></>
+			<gpx:object rect="577.500 19.500 667.500 37.500" object-name="_Text">
+				<gpx:sg message="52">
+					<gpx:cgbject Transparent="1"></>
+					<font original="6"></></></></>
+		<gpx:object rect="674 24 788 41" object-name="MSG">
+			<gpx:cgbject version="CB" tagname0="w$PLvl" text="3B" Transparent="1" text-color="FFFFFF" text-align="17" drawing-OP="8800C6" text-format="80000259">
+				<font original="10"></></>
+			<Array name="MessageIndex" size="5">
+				<0 message="54" color="FFFFFF" font-align="17">
+					<font original="10"></></>
+				<1 message="55" color="FFFFFF" font-align="17">
+					<font original="10"></></>
+				<2 message="56" color="FFFFFF" font-align="17">
+					<font original="10"></></>
+				<3 message="57" color="FFFFFF" font-align="17">
+					<font original="10"></></>
+				<4 message="58" color="FFFFFF" font-align="17">
+					<font original="10"></></></></></>
+	<gpx:object page-title="Window1" rect="0 80 800 492" object-name="PageFrame" tagname="bA0002">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>User Input Link</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" title-size="8" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="338 285 448 395" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="413 120 415 131" object-name="_HVLine">
+			<gpx:sg translate="1 0">
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="413 121"></>
+						<1 point2f="413 130"></></></></></>
+		<gpx:object rect="363 120 365 131" object-name="_HVLine">
+			<gpx:sg translate="1 0">
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="363 121"></>
+						<1 point2f="363 130"></></></></></>
+		<gpx:object rect="312 120 314 131" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="313 121"></>
+						<1 point2f="313 130"></></></></></>
+		<gpx:object rect="7 53 265 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="7.500 134.500 264.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="6.500 133.500 263.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="11 11 116 39" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject x-scale="1.082" y-scale="0.966"></></>
+			<gpx:object rect="15.500 91 111.500 119" object-name="_Rectangle">
+				<gpx:sg>
+					<gpx:cgbject brush-color="C0C0C0" x-scale="1.082" y-scale="0.966"></></></>
+			<gpx:object rect="19 118 108 120" object-name="_HVLine">
+				<gpx:sg translate="0 14">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.082" y-scale="0.966">
+						<Array name="cpoint" size="2">
+							<0 point2f="16 119"></>
+							<1 point2f="112 119"></></></></></>
+			<gpx:object rect="110.500 91 112.500 121" object-name="_HVLine">
+				<gpx:sg translate="48 1">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.082" y-scale="0.966">
+						<Array name="cpoint" size="2">
+							<0 point2f="111.500 92"></>
+							<1 point2f="111.500 120"></></></></></></>
+		<gpx:object rect="12 11 113 35" object-name="_Text">
+			<gpx:sg translate="0 1" message="60">
+				<gpx:cgbject Transparent="1" text-color="FFFFFF" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="11 10 112 34" object-name="_Text">
+			<gpx:sg translate="-1 0" message="60">
+				<gpx:cgbject Transparent="1" text-color="800000" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="16 40 111 62" object-name="_Text">
+			<gpx:sg message="60">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="271 53 529 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="271.500 134.500 528.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="270.500 133.500 527.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="535 53 793 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="535.500 134.500 792.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="534.500 133.500 791.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="283 40 337 62" object-name="_Text">
+			<gpx:sg message="63">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="544 40 670 62" object-name="_Text">
+			<gpx:sg message="64">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="183 84 246 115" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-discrete tagname="bA0020" to-user="65" prompt-set="66" prompt-reset="67" msg-on="68" msg-off="69" accelerator="1 0" iopoint1="bA0020 20 5">
+						<font original="1"></>
+						<font original="1"></>
+						<font original="1"></>
+						<font original="1"></>
+						<font original="1"></></></></></>
+		<gpx:object rect="28 89 91 108" object-name="_Text">
+			<gpx:sg message="4">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="183 160 246 191" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="wR0580" to-user="71" text-format="0" value="0 100" keypad="1" accelerator="1 0" iopoint1="wR0580 580 48">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 162 119 181" object-name="_Text">
+			<gpx:sg message="6">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="27 133 242 136" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 213.500 243 215.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 214.500"></>
+							<1 point2f="242 214.500"></></></></></>
+			<gpx:object rect="26 214.500 243 216.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 215.500"></>
+							<1 point2f="242 215.500"></></></></></></>
+		<gpx:object rect="183 202 246 233" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="wR0581" to-user="73" text-format="0.0F" value="0 100" keypad="1" accelerator="1 0" iopoint1="wR0581 581 48">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 205 165 224" object-name="_Text">
+			<gpx:sg message="8">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="183 244 246 275" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="fR0582" to-user="75" text-format="0.0" value="0 100" keypad="1" accelerator="1 0" iopoint1="fR0582 582 48">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 246 129 265" object-name="_Text">
+			<gpx:sg message="10">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="27 305 242 308" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 386.500 243 388.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 386.500"></>
+							<1 point2f="242 386.500"></></></></></>
+			<gpx:object rect="26 387.500 243 389.500" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 387.500"></>
+							<1 point2f="242 387.500"></></></></></></>
+		<gpx:object rect="84 341 246 372" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-string tagname="wR0583" tagname-1="wR0585" to-user="77" keypad="1" accelerator="1 0" iopoint1="wR0583 583 48" iopoint2="wR0585 585 48">
+						<font original="1"></>
+						<Array name="tagnames" size="1">
+							<0>wR0584 584 48</></></></></></>
+		<gpx:object rect="28 344 74 363" object-name="_Text">
+			<gpx:sg message="78">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="358 58 437 77" object-name="_Text">
+			<gpx:sg message="79">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="448 86 511 117" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0586;" text-format="0" iopoint1="[R0000 0 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="312 96 412 106" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="347 105 448 107" object-name="_HVLine">
+			<gpx:sg translate="-38 5">
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="313 106"></>
+						<1 point2f="413 106"></></></></></>
+		<gpx:object rect="386 61 388 73" object-name="_HVLine">
+			<gpx:sg translate="75 -34">
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="412 97"></>
+						<1 point2f="412 107"></></></></></>
+		<gpx:object rect="417 120 518 122" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="313 121"></>
+						<1 point2f="413 121"></></></></></>
+		<gpx:object rect="417 121 518 123" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="313 122"></>
+						<1 point2f="413 122"></></></></></>
+		<gpx:object rect="311 120 313 131" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="312 121"></>
+						<1 point2f="312 130"></></></></></>
+		<gpx:object rect="412 120 414 131" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="412 121"></>
+						<1 point2f="412 130"></></></></></>
+		<gpx:object rect="311 133 317 146" object-name="_Text">
+			<gpx:sg message="80">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></></></>
+		<gpx:object rect="403 132 421 145" object-name="_Text">
+			<gpx:sg message="81">
+				<gpx:cgbject Transparent="1" text-align="1"></>
+				<font original="3"></></></>
+		<gpx:object rect="305 85 319 116" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<slider-horizontal tagname="wR0586" value="0 100" range="0 100" reference="2" iopoint1="wR0586 586 48"></></></></>
+		<gpx:object rect="362 120 364 131" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="362 121"></>
+						<1 point2f="362 130"></></></></></>
+		<gpx:object rect="357 134 369 147" object-name="_Text">
+			<gpx:sg message="82">
+				<gpx:cgbject Transparent="1" text-align="1"></>
+				<font original="3"></></></>
+		<gpx:object rect="291 152 506 155" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="290 232.500 507 234.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="291 233.500"></>
+							<1 point2f="506 233.500"></></></></></>
+			<gpx:object rect="290 233.500 507 235.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="291 234.500"></>
+							<1 point2f="506 234.500"></></></></></></>
+		<gpx:object rect="398 168 408 268" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="407 168 409 270" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="408 169"></>
+						<1 point2f="408 269"></></></></></>
+		<gpx:object rect="460 267 471 269" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="399 268"></>
+						<1 point2f="408 268"></></></></></>
+		<gpx:object rect="396 153 410 184" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080" rotate="90"></>
+				<control-link>
+					<slider-vertical tagname="wR0587" value="100 0" range="0 100" iopoint2="wR0587 587 48"></></></></>
+		<gpx:object rect="448 197 511 228" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0587;" text-format="0" iopoint1="[R0001 1 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="380 177 382 278" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="381 168"></>
+						<1 point2f="381 267"></></></></></>
+		<gpx:object rect="381 177 383 278" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="382 168"></>
+						<1 point2f="382 267"></></></></></>
+		<gpx:object rect="375 164 377 175" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF" rotate="90">
+					<Array name="cpoint" size="2">
+						<0 point2f="376 165"></>
+						<1 point2f="376 174"></></></></></>
+		<gpx:object rect="375 163 377 174" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject rotate="90">
+					<Array name="cpoint" size="2">
+						<0 point2f="376 164"></>
+						<1 point2f="376 173"></></></></></>
+		<gpx:object rect="375 214 377 225" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF" rotate="90">
+					<Array name="cpoint" size="2">
+						<0 point2f="376 215"></>
+						<1 point2f="376 224"></></></></></>
+		<gpx:object rect="375 213 377 224" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject rotate="90">
+					<Array name="cpoint" size="2">
+						<0 point2f="376 214"></>
+						<1 point2f="376 223"></></></></></>
+		<gpx:object rect="375 263 377 274" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF" rotate="90">
+					<Array name="cpoint" size="2">
+						<0 point2f="376 264"></>
+						<1 point2f="376 273"></></></></></>
+		<gpx:object rect="375 262 377 273" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject rotate="90">
+					<Array name="cpoint" size="2">
+						<0 point2f="376 263"></>
+						<1 point2f="376 272"></></></></></>
+		<gpx:object rect="359 258 365 271" object-name="_Text">
+			<gpx:sg message="80">
+				<gpx:cgbject Transparent="1" text-align="2"></>
+				<font original="3"></></></>
+		<gpx:object rect="353 210 365 223" object-name="_Text">
+			<gpx:sg message="82">
+				<gpx:cgbject Transparent="1" text-align="2"></>
+				<font original="3"></></></>
+		<gpx:object rect="348 161 366 174" object-name="_Text">
+			<gpx:sg message="81">
+				<gpx:cgbject Transparent="1" text-align="2"></>
+				<font original="3"></></></>
+		<gpx:object rect="291 276 506 279" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="290 356.500 507 358.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="291 357.500"></>
+							<1 point2f="506 357.500"></></></></></>
+			<gpx:object rect="290 357.500 507 359.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="291 358.500"></>
+							<1 point2f="506 358.500"></></></></></></>
+		<gpx:object rect="282 208 339 227" object-name="_Text">
+			<gpx:sg message="86">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="284 335 333 354" object-name="_Text">
+			<gpx:sg message="87">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="447 285 449 397" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="448 286"></>
+						<1 point2f="448 396"></></></></></>
+		<gpx:object rect="343 394 455 396" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="338 395"></>
+						<1 point2f="448 395"></></></></></>
+		<gpx:object rect="338 285 348 295" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<slider-horizontal tagname="wR0588" value="0 100" range="0 100" iopoint1="wR0588 588 48"></>
+					<slider-vertical tagname="wR0589" value="0 100" range="0 100" iopoint2="wR0589 589 48"></></></></>
+		<gpx:object rect="631 69 711 100" object-name="_Button">
+			<gpx:sg message="88">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-discrete tagname="bA0021" accelerator="1 0" iopoint1="bA0021 21 5"></></></></>
+		<gpx:object rect="555 233 770 236" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="554 313.500 771 315.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="555 314.500"></>
+							<1 point2f="770 314.500"></></></></></>
+			<gpx:object rect="554 314.500 771 316.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="555 315.500"></>
+							<1 point2f="770 315.500"></></></></></></>
+		<gpx:object rect="549 136 612 155" object-name="_Text">
+			<gpx:sg message="4">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="631 101 711 132" object-name="_Button">
+			<gpx:sg message="90">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-discrete tagname="bA0022" keypad="1" accelerator="1 0" iopoint1="bA0022 22 5"></></></></>
+		<gpx:object rect="631 133 711 164" object-name="_Button">
+			<gpx:sg message="91">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-discrete tagname="bA0023" keypad="2" accelerator="1 0" iopoint1="bA0023 23 5"></></></></>
+		<gpx:object rect="631 165 711 196" object-name="_Button">
+			<gpx:sg message="92">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-discrete tagname="bA0024" keypad="4" accelerator="1 0" iopoint1="bA0024 24 5"></></></></>
+		<gpx:object rect="631 197 711 228" object-name="_Button">
+			<gpx:sg message="93">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-discrete tagname="bA0024" keypad="3" accelerator="1 0" iopoint1="bA0024 24 5"></></></></>
+		<gpx:object rect="716 70 779 100" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-discrete expression="bA0021;" msg-on="94" msg-off="95" iopoint1="[R0002 2 258">
+						<font original="1"></>
+						<font original="1"></></></></></>
+		<gpx:object rect="716 102 779 132" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-discrete expression="bA0022;" msg-on="96" msg-off="97" iopoint1="[R0003 3 258">
+						<font original="1"></>
+						<font original="1"></></></></></>
+		<gpx:object rect="716 134 779 164" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-discrete expression="bA0023;" msg-on="98" msg-off="99" iopoint1="[R0004 4 258">
+						<font original="1"></>
+						<font original="1"></></></></></>
+		<gpx:object rect="716 166 779 229" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-discrete expression="bA0024;" msg-on="100" msg-off="101" iopoint1="[R0005 5 258">
+						<font original="1"></>
+						<font original="1"></></></></></>
+		<gpx:object rect="549 282 598 301" object-name="_Text">
+			<gpx:sg message="102">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="631 240 711 277" object-name="_Button">
+			<gpx:sg message="103">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-action tagname="bA0025" on-down="1" accelerator="1 0" iopoint1="bA0025 25 5" iopoint2="[D0000 0 257">
+						<Array name="vincent-script" size="3">
+							<0>wR0590 = wR0590 + 1;</></></></></></>
+		<gpx:object rect="631 278 711 315" object-name="_Button">
+			<gpx:sg message="104">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-action tagname="bA0026" while-down="1" accelerator="1 0" iopoint1="bA0026 26 5" iopoint3="[D0001 1 257">
+						<Array name="vincent-script" size="3">
+							<1>wR0590 = wR0590 + 1;</></></></></></>
+		<gpx:object rect="631 316 711 353" object-name="_Button">
+			<gpx:sg message="105">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="6"></>
+				<control-link>
+					<PB-action tagname="bA0027" on-up="1" accelerator="1 0" iopoint1="bA0027 27 5" iopoint4="[D0002 2 257">
+						<Array name="vincent-script" size="3">
+							<2>wR0590 = wR0590 - 1;</></></></></></>
+		<gpx:object rect="555 358 770 361" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="554 438.500 771 440.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="555 439.500"></>
+							<1 point2f="770 439.500"></></></></></>
+			<gpx:object rect="554 439.500 771 441.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="555 440.500"></>
+							<1 point2f="770 440.500"></></></></></></>
+		<gpx:object rect="544 366 662 398" object-name="_Text">
+			<gpx:sg message="106">
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="667 366 785 398" object-name="_Text">
+			<gpx:sg message="107">
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="716 240 779 353" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0590;" text-format="0" iopoint1="[R0006 6 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="457 302 520 333" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0588;" text-format="0" iopoint1="[R0007 7 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="457 362 520 393" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0589;" text-format="0" iopoint1="[R0008 8 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="456 281 521 297" object-name="_Text">
+			<gpx:sg message="79">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="464 341 513 357" object-name="_Text">
+			<gpx:sg message="86">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></></>
+	<gpx:object page-title="Window2" rect="0 80 800 492" object-name="PageFrame" tagname="bA0003">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>Color Control Link</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" title-size="0" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="12 11 145 40" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="12.500 91.500 144.500 119.500" object-name="_Rectangle">
+				<gpx:sg>
+					<gpx:cgbject brush-color="C0C0C0"></></></>
+			<gpx:object rect="15.500 119.500 139.500 121.500" object-name="_HVLine">
+				<gpx:sg translate="-1 15">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="12.500 119.500"></>
+							<1 point2f="145.500 119.500"></></></></></>
+			<gpx:object rect="142.500 91.500 146.500 121.500" object-name="_HVLine">
+				<gpx:sg translate="66 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="144.500 91.500"></>
+							<1 point2f="144.500 119.500"></></></></></></>
+		<gpx:object rect="14 11 140 34" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="14.500 92.500 139.500 114.500" object-name="_Text">
+				<gpx:sg translate="0 1" message="150">
+					<gpx:cgbject Transparent="1" text-color="FFFFFF" text-align="1"></>
+					<font original="1"></></></>
+			<gpx:object rect="13.500 91.500 138.500 113.500" object-name="_Text">
+				<gpx:sg translate="-1 0" message="150">
+					<gpx:cgbject Transparent="1" text-color="800000" text-align="1"></>
+					<font original="1"></></></></>
+		<gpx:object rect="7 53 265 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="7.500 134.500 264.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="6.500 133.500 263.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="16 40 99 62" object-name="_Text">
+			<gpx:sg message="152">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="271 53 529 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="271.500 134.500 528.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="270.500 133.500 527.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="535 53 793 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="535.500 134.500 792.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="534.500 133.500 791.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="282 40 378 62" object-name="_Text">
+			<gpx:sg message="153">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="550 40 647 62" object-name="_Text">
+			<gpx:sg message="154">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="28 83 91 102" object-name="_Text">
+			<gpx:sg message="4">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="28 132 82 151" object-name="_Text">
+			<gpx:sg message="156">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="27 126 242 129" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 206.500 243 208.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 207.500"></>
+							<1 point2f="242 207.500"></></></></></>
+			<gpx:object rect="26 207.500 243 209.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 208.500"></>
+							<1 point2f="242 208.500"></></></></></></>
+		<gpx:object rect="27 216 242 219" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 297.500 243 299.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 297.500"></>
+							<1 point2f="242 297.500"></></></></></>
+			<gpx:object rect="26 298.500 243 300.500" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 298.500"></>
+							<1 point2f="242 298.500"></></></></></></>
+		<gpx:object rect="200 70 250 120" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<fillcolor-discrete expression="bA0028;" color-on="FF" color-off="808080" iopoint1="[D0003 3 257"></></></></>
+		<gpx:object rect="142 70 192 120" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<control-link>
+					<PB-discrete tagname="bA0028" keypad="2" accelerator="1 0" iopoint1="bA0028 28 5"></></></></>
+		<gpx:object rect="200 148 250 198" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<fillcolor-analog expression="wR0591;" color-5-level="FF 80FF FFFF FF00 FF0000" threshold="20 40 60 80" iopoint1="[R0009 9 258"></></></></>
+		<gpx:object rect="41 162 180 206" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0591" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="136 136 191 158" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0591;" text-format="0" iopoint1="[R0010 10 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="18 244 129 263" object-name="_Text">
+			<gpx:sg message="157">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="142 228 192 278" object-name="_Button">
+			<gpx:sg message="158">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="11"></>
+				<control-link>
+					<PB-discrete tagname="bA0029" keypad="2" accelerator="1 0" iopoint1="bA0029 29 5"></></></></>
+		<gpx:object rect="18 294 120 313" object-name="_Text">
+			<gpx:sg message="159">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="27 287 242 290" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 367.500 243 369.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 368.500"></>
+							<1 point2f="242 368.500"></></></></></>
+			<gpx:object rect="26 368.500 243 370.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 369.500"></>
+							<1 point2f="242 369.500"></></></></></></>
+		<gpx:object rect="200 297 250 347" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<fillalarm-analog tagname="wR0592" color-5-level="8000FF FF80FF FF00 FFFF FF" iopoint1="wR0592 0 1"></></></></>
+		<gpx:object rect="41 353 180 397" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0592" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="136 297 191 319" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0592;" text-format="0" iopoint1="[R0011 11 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="38 333 62 346" object-name="_Text">
+			<gpx:sg message="160">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0592 <= 10;" color-on="8000FF" iopoint1="[D0004 4 257"></></></></>
+		<gpx:object rect="67 333 79 346" object-name="_Text">
+			<gpx:sg message="161">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0592 <= 20;" color-on="FF80FF" iopoint1="[D0005 5 257"></></></></>
+		<gpx:object rect="158 335 178 348" object-name="_Text">
+			<gpx:sg message="162">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0592 >= 90;" color-on="FF" iopoint1="[D0006 6 257"></></></></>
+		<gpx:object rect="142 335 152 348" object-name="_Text">
+			<gpx:sg message="163">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0592 >= 80;" color-on="FFFF" iopoint1="[D0007 7 257"></></></></>
+		<gpx:object rect="288 83 351 102" object-name="_Text">
+			<gpx:sg message="4">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="288 132 342 151" object-name="_Text">
+			<gpx:sg message="156">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="287 126 502 129" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="286 206.500 503 208.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="287 207.500"></>
+							<1 point2f="502 207.500"></></></></></>
+			<gpx:object rect="286 207.500 503 209.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="287 208.500"></>
+							<1 point2f="502 208.500"></></></></></></>
+		<gpx:object rect="287 216 502 219" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="286 297.500 503 299.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="287 297.500"></>
+							<1 point2f="502 297.500"></></></></></>
+			<gpx:object rect="286 298.500 503 300.500" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="287 298.500"></>
+							<1 point2f="502 298.500"></></></></></></>
+		<gpx:object rect="460 70 510 120" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0" pen-style="4"></>
+				<control-link>
+					<linecolor-discrete expression="bA0030;" color-on="FF" iopoint1="[D0008 8 257"></></></></>
+		<gpx:object rect="402 70 452 120" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<control-link>
+					<PB-discrete tagname="bA0030" keypad="2" accelerator="1 0" iopoint1="bA0030 30 5"></></></></>
+		<gpx:object rect="460 148 510 198" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0" pen-style="4"></>
+				<control-link>
+					<linecolor-analog expression="wR0593;" color-5-level="FF 80FF FFFF FF00 FF0000" threshold="20 40 60 80" iopoint1="[R0012 12 258"></></></></>
+		<gpx:object rect="301 162 440 206" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0593" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="396 136 451 158" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0593;" text-format="0" iopoint1="[R0013 13 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="278 244 389 263" object-name="_Text">
+			<gpx:sg message="157">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="402 228 452 278" object-name="_Button">
+			<gpx:sg message="158">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="11"></>
+				<control-link>
+					<PB-discrete tagname="bA0031" keypad="2" accelerator="1 0" iopoint1="bA0031 31 5"></></></></>
+		<gpx:object rect="278 294 380 313" object-name="_Text">
+			<gpx:sg message="159">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="287 287 502 290" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="286 367.500 503 369.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="287 368.500"></>
+							<1 point2f="502 368.500"></></></></></>
+			<gpx:object rect="286 368.500 503 370.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="287 369.500"></>
+							<1 point2f="502 369.500"></></></></></></>
+		<gpx:object rect="460 297 510 347" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0" pen-style="4"></>
+				<control-link>
+					<linealarm-analog tagname="wR0594" color-5-level="8000FF FF80FF FF00 FFFF FF" iopoint1="wR0594 0 1"></></></></>
+		<gpx:object rect="301 353 440 397" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0594" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="396 297 451 319" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0594;" text-format="0" iopoint1="[R0014 14 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="298 333 322 346" object-name="_Text">
+			<gpx:sg message="160">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0594 <= 10;" color-on="8000FF" iopoint1="[D0009 9 257"></></></></>
+		<gpx:object rect="327 333 339 346" object-name="_Text">
+			<gpx:sg message="161">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0594 <= 20;" color-on="FF80FF" iopoint1="[D0010 10 257"></></></></>
+		<gpx:object rect="418 335 438 348" object-name="_Text">
+			<gpx:sg message="162">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0594 >= 90;" color-on="FF" iopoint1="[D0011 11 257"></></></></>
+		<gpx:object rect="402 335 412 348" object-name="_Text">
+			<gpx:sg message="163">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0594 >= 80;" color-on="FFFF" iopoint1="[D0012 12 257"></></></></>
+		<gpx:object rect="553 83 616 102" object-name="_Text">
+			<gpx:sg message="4">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="553 132 607 151" object-name="_Text">
+			<gpx:sg message="156">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="552 126 767 129" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="551 206.500 768 208.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="552 207.500"></>
+							<1 point2f="767 207.500"></></></></></>
+			<gpx:object rect="551 207.500 768 209.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="552 208.500"></>
+							<1 point2f="767 208.500"></></></></></></>
+		<gpx:object rect="552 216 767 219" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="551 297.500 768 299.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="552 297.500"></>
+							<1 point2f="767 297.500"></></></></></>
+			<gpx:object rect="551 298.500 768 300.500" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="552 298.500"></>
+							<1 point2f="767 298.500"></></></></></></>
+		<gpx:object rect="667 70 717 120" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<control-link>
+					<PB-discrete tagname="bA0032" keypad="2" accelerator="1 0" iopoint1="bA0032 32 5"></></></></>
+		<gpx:object rect="566 162 705 206" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0595" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="661 136 716 158" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0595;" text-format="0" iopoint1="[R0015 15 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="543 244 654 263" object-name="_Text">
+			<gpx:sg message="157">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="543 294 645 313" object-name="_Text">
+			<gpx:sg message="159">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="552 287 767 290" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="551 367.500 768 369.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="552 368.500"></>
+							<1 point2f="767 368.500"></></></></></>
+			<gpx:object rect="551 368.500 768 370.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="552 369.500"></>
+							<1 point2f="767 369.500"></></></></></></>
+		<gpx:object rect="566 353 705 397" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0596" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="661 297 716 319" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0596;" text-format="0" iopoint1="[R0016 16 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="563 333 587 346" object-name="_Text">
+			<gpx:sg message="160">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0596 <= 10;" color-on="8000FF" iopoint1="[D0013 13 257"></></></></>
+		<gpx:object rect="592 333 604 346" object-name="_Text">
+			<gpx:sg message="161">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0596 <= 20;" color-on="FF80FF" iopoint1="[D0014 14 257"></></></></>
+		<gpx:object rect="683 335 703 348" object-name="_Text">
+			<gpx:sg message="162">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0596 >= 90;" color-on="FF" iopoint1="[D0015 15 257"></></></></>
+		<gpx:object rect="667 335 677 348" object-name="_Text">
+			<gpx:sg message="163">
+				<gpx:cgbject Transparent="1"></>
+				<font original="3"></>
+				<control-link>
+					<textcolor-discrete expression="wR0596 >= 80;" color-on="FFFF" iopoint1="[D0016 16 257"></></></></>
+		<gpx:object rect="729 76 778 105" object-name="_Text">
+			<gpx:sg message="182">
+				<gpx:cgbject brush-color="C0C0C0"></>
+				<font original="4"></>
+				<control-link>
+					<textcolor-discrete expression="bA0032;" color-on="FF" iopoint1="[D0017 17 257"></></></></>
+		<gpx:object rect="729 156 778 185" object-name="_Text">
+			<gpx:sg message="182">
+				<gpx:cgbject text-color="FF" brush-color="C0C0C0"></>
+				<font original="4"></>
+				<control-link>
+					<textcolor-analog expression="wR0595;" color-5-level="FF 80FF FFFF FF00 FF0000" threshold="20 40 60 80" iopoint1="[R0017 17 258"></></></></>
+		<gpx:object rect="729 305 778 334" object-name="_Text">
+			<gpx:sg message="182">
+				<gpx:cgbject text-color="FF00" brush-color="C0C0C0"></>
+				<font original="4"></>
+				<control-link>
+					<textalarm-analog tagname="wR0596" color-5-level="8000FF FF80FF FF00 FFFF FF" iopoint1="wR0596 0 1"></></></></>
+		<gpx:object rect="460 228 510 278" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject Transparent="1" pen-style="4"></>
+				<control-link>
+					<linealarm-discrete tagname="bA0031" color-on="FF" color-off="FF00" iopoint1="bA0031 0 4"></></></></>
+		<gpx:object rect="200 228 250 278" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<fillalarm-discrete tagname="bA0029" color-on="FF" color-off="FF00" iopoint1="bA0029 0 4"></></></></>
+		<gpx:object rect="664 227 714 277" object-name="_Button">
+			<gpx:sg message="158">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1" drawing-OP="8800C6"></>
+				<font original="12"></>
+				<control-link>
+					<PB-discrete tagname="bA0033" keypad="2" accelerator="1 0" iopoint1="bA0033 33 5"></></></></>
+		<gpx:object rect="727 235 776 264" object-name="_Text">
+			<gpx:sg message="182">
+				<gpx:cgbject Transparent="1" drawing-OP="8800C6"></>
+				<font original="9"></>
+				<control-link>
+					<textcolor-discrete expression="bA0033;" color-on="FF00" iopoint1="[D0018 18 257"></></></></></>
+	<gpx:object page-title="Window3" rect="0 80 800 492" object-name="PageFrame" tagname="bA0004">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>Output Link</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" title-size="0" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="271 97 348 141" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject Transparent="1" pen-color="FF"></></></>
+		<gpx:object rect="271 171 348 300" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject Transparent="1" pen-color="FF"></></></>
+		<gpx:object rect="175 354 347 395" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject Transparent="1" pen-color="FF"></></></>
+		<gpx:object rect="11 11 116 39" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject x-scale="1.082" y-scale="0.966"></></>
+			<gpx:object rect="15.500 91 111.500 119" object-name="_Rectangle">
+				<gpx:sg>
+					<gpx:cgbject brush-color="C0C0C0" x-scale="1.082" y-scale="0.966"></></></>
+			<gpx:object rect="19 118 108 120" object-name="_HVLine">
+				<gpx:sg translate="0 14">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.082" y-scale="0.966">
+						<Array name="cpoint" size="2">
+							<0 point2f="16 119"></>
+							<1 point2f="112 119"></></></></></>
+			<gpx:object rect="110.500 91 112.500 121" object-name="_HVLine">
+				<gpx:sg translate="48 1">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.082" y-scale="0.966">
+						<Array name="cpoint" size="2">
+							<0 point2f="111.500 92"></>
+							<1 point2f="111.500 120"></></></></></></>
+		<gpx:object rect="13 11 114 35" object-name="_Text">
+			<gpx:sg translate="0 1" message="1">
+				<gpx:cgbject Transparent="1" text-color="FFFFFF" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="12 10 113 34" object-name="_Text">
+			<gpx:sg translate="-1 0" message="1">
+				<gpx:cgbject Transparent="1" text-color="800000" text-align="1"></>
+				<font original="1"></></></>
+		<gpx:object rect="7 53 373 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject x-scale="1.419" y-scale="0.997"></></>
+			<gpx:object rect="61.500 134.500 318.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF" x-scale="1.419" y-scale="0.997"></></></>
+			<gpx:object rect="60.500 133.500 317.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1" x-scale="1.419" y-scale="0.997"></></></></>
+		<gpx:object rect="16 40 142 62" object-name="_Text">
+			<gpx:sg message="3">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="28 109 91 128" object-name="_Text">
+			<gpx:sg message="4">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="193 178 256 209" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="wR0597" to-user="5" text-format="0" value="0 100" keypad="1" accelerator="1 0" iopoint1="wR0597 597 48">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 185 119 204" object-name="_Text">
+			<gpx:sg message="6">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="27 160 348 162" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject x-scale="1.493" y-scale="0.667"></></>
+			<gpx:object rect="79 241 296 243" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject x-scale="1.493" y-scale="0.667">
+						<Array name="cpoint" size="2">
+							<0 point2f="80 241"></>
+							<1 point2f="295 241"></></></></></>
+			<gpx:object rect="79 242 296 244" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.493" y-scale="0.667">
+						<Array name="cpoint" size="2">
+							<0 point2f="80 242"></>
+							<1 point2f="295 242"></></></></></></>
+		<gpx:object rect="193 220 256 251" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="wR0598" to-user="7" text-format="0.0F" value="0 100" keypad="1" accelerator="1 0" iopoint1="wR0598 598 48">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 227 165 246" object-name="_Text">
+			<gpx:sg message="8">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="193 262 256 293" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="fR0599" to-user="9" text-format="0.0" value="0 100" keypad="1" accelerator="1 0" iopoint1="fR0599 599 48">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 269 129 288" object-name="_Text">
+			<gpx:sg message="10">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="28 308 346 311" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="25 388.500 347 390.500" object-name="_HVLine">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="28 389.500"></>
+							<1 point2f="346 389.500"></></></></></>
+			<gpx:object rect="25 389.500 347 391.500" object-name="_HVLine">
+				<gpx:sg translate="-1 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="28 390.500"></>
+							<1 point2f="346 390.500"></></></></></></>
+		<gpx:object rect="180 319 342 350" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-string tagname="wR0600" tagname-1="wR0602" to-user="11" keypad="1" accelerator="1 0" iopoint1="wR0600 600 48" iopoint2="wR0602 602 48">
+						<font original="1"></>
+						<Array name="tagnames" size="1">
+							<0>wR0601 601 48</></></></></></>
+		<gpx:object rect="28 324 117 343" object-name="_Text">
+			<gpx:sg message="12">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="278 104 341 135" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-discrete expression="bA0034;" msg-on="13" msg-off="14" iopoint1="[R0018 18 258">
+						<font original="1"></>
+						<font original="1"></></></></></>
+		<gpx:object rect="198 82 250 154" object-name="SWITCHRK">
+			<gpx:cgbject tagname0="bA0034" drawing-OP="CC0020"></></>
+		<gpx:object rect="278 178 341 209" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0597;" text-format="0" iopoint1="[R0019 19 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="278 220 341 251" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0598;" text-format="0.0F" iopoint1="[R0020 20 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="278 262 341 293" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="fR0599;" text-format="0.0" iopoint1="[R0021 21 258">
+						<font original="1"></></></></></>
+		<gpx:object rect="180 359 342 390" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-string expression="GetStringInTag(wR0600,4);" iopoint1="[S4000 4000 257">
+						<font original="1"></></></></></>
+		<gpx:object rect="28 366 130 385" object-name="_Text">
+			<gpx:sg message="15">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="204 57 243 76" object-name="_Text">
+			<gpx:sg message="16">
+				<gpx:cgbject Transparent="1" text-color="800000"></>
+				<font original="2"></></></>
+		<gpx:object rect="282 58 339 77" object-name="_Text">
+			<gpx:sg message="17">
+				<gpx:cgbject Transparent="1" text-color="800000"></>
+				<font original="2"></></></></>
+	<gpx:object page-title="Window4" rect="0 80 800 492" object-name="PageFrame" tagname="bA0005">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>Figure Control Link</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" title-size="0" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="12 11 153 40" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="12.500 91.500 152.500 119.500" object-name="_Rectangle">
+				<gpx:sg>
+					<gpx:cgbject brush-color="C0C0C0"></></></>
+			<gpx:object rect="17.500 118.500 147.500 120.500" object-name="_HVLine">
+				<gpx:sg translate="0 14">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="12.500 119.500"></>
+							<1 point2f="152.500 119.500"></></></></></>
+			<gpx:object rect="151.500 91.500 155.500 121.500" object-name="_HVLine">
+				<gpx:sg translate="71 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="152.500 92.500"></>
+							<1 point2f="152.500 120.500"></></></></></></>
+		<gpx:object rect="15 11 150 34" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="16.500 92.500 150.500 114.500" object-name="_Text">
+				<gpx:sg translate="1 1" message="128">
+					<gpx:cgbject Transparent="1" text-color="FFFFFF" text-align="1"></>
+					<font original="1"></></></>
+			<gpx:object rect="15.500 91.500 149.500 113.500" object-name="_Text">
+				<gpx:sg message="128">
+					<gpx:cgbject Transparent="1" text-color="800000" text-align="1"></>
+					<font original="1"></></></></>
+		<gpx:object rect="7 53 265 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="7.500 134.500 264.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="6.500 133.500 263.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="16 40 120 62" object-name="_Text">
+			<gpx:sg message="130">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="271 53 529 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="271.500 134.500 528.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="270.500 133.500 527.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="535 53 793 404" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="535.500 134.500 792.500 484.500" object-name="_Rectangle">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+			<gpx:object rect="534.500 133.500 791.500 483.500" object-name="_Rectangle">
+				<gpx:sg translate="-1 0">
+					<gpx:cgbject Transparent="1"></></></></>
+		<gpx:object rect="282 40 363 62" object-name="_Text">
+			<gpx:sg message="131">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="547 40 651 62" object-name="_Text">
+			<gpx:sg message="132">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="15 70 59 89" object-name="_Text">
+			<gpx:sg message="133">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="15 154 65 173" object-name="_Text">
+			<gpx:sg message="134">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="27 147 242 150" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 227.500 243 229.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 228.500"></>
+							<1 point2f="242 228.500"></></></></></>
+			<gpx:object rect="26 228.500 243 230.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 229.500"></>
+							<1 point2f="242 229.500"></></></></></></>
+		<gpx:object rect="27 264 242 267" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="26 345.500 243 347.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="27 345.500"></>
+							<1 point2f="242 345.500"></></></></></>
+			<gpx:object rect="26 346.500 243 348.500" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="27 346.500"></>
+							<1 point2f="242 346.500"></></></></></></>
+		<gpx:object rect="182 169 252 239" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF8080"></>
+				<control-link>
+					<objectsize-height expression="wR0604;" value="0 100" range="0 100" reference="2" iopoint2="[R0022 22 258"></></></></>
+		<gpx:object rect="182 324 252 394" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF8080"></>
+				<control-link>
+					<objectsize-width expression="wR0605;" value="0 100" range="0 100" iopoint1="[R0023 23 258"></>
+					<objectsize-height expression="wR0606;" value="0 100" range="0 100" iopoint2="[R0024 24 258"></></></></>
+		<gpx:object rect="15 270 50 289" object-name="_Text">
+			<gpx:sg message="135">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="182 65 252 135" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF8080"></>
+				<control-link>
+					<objectsize-width expression="wR0603;" value="0 100" range="0 100" iopoint1="[R0025 25 258"></></></></>
+		<gpx:object rect="31 94 170 138" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0603" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="122 68 177 90" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0603;" text-format="0" iopoint1="[R0026 26 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="122 196 177 218" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0604;" text-format="0" iopoint1="[R0027 27 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="74 155 117 260" object-name="VSCROLL">
+			<gpx:cgbject tagname0="wR0604" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="96 324 166 394" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="165 363 167 434" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="166 325"></>
+						<1 point2f="166 395"></></></></></>
+		<gpx:object rect="108 393 179 395" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="97 394"></>
+						<1 point2f="166 394"></></></></></>
+		<gpx:object rect="96 324 106 334" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<slider-horizontal tagname="wR0605" value="0 100" range="0 60" iopoint1="wR0605 605 48"></>
+					<slider-vertical tagname="wR0606" value="0 100" range="0 60" iopoint2="wR0606 606 48"></></></></>
+		<gpx:object rect="31 350 86 372" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0605;" text-format="0" iopoint1="[R0028 28 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="104 293 159 315" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0606;" text-format="0" iopoint1="[R0029 29 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="40 329 77 345" object-name="_Text">
+			<gpx:sg message="133">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="111 272 152 288" object-name="_Text">
+			<gpx:sg message="134">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="276 63 355 82" object-name="_Text">
+			<gpx:sg message="79">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="276 154 333 173" object-name="_Text">
+			<gpx:sg message="86">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="293 147 508 150" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="292 227.500 509 229.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="293 228.500"></>
+							<1 point2f="508 228.500"></></></></></>
+			<gpx:object rect="292 228.500 509 230.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="293 229.500"></>
+							<1 point2f="508 229.500"></></></></></></>
+		<gpx:object rect="293 264 508 267" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="292 345.500 509 347.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="293 345.500"></>
+							<1 point2f="508 345.500"></></></></></>
+			<gpx:object rect="292 346.500 509 348.500" object-name="_HVLine">
+				<gpx:sg translate="0 2">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="293 346.500"></>
+							<1 point2f="508 346.500"></></></></></></>
+		<gpx:object rect="473 151 483 161" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0000"></>
+				<control-link>
+					<location-vertical expression="wR0608;" value="0 100" range="0 100" iopoint2="[R0030 30 258"></></></></>
+		<gpx:object rect="450 324 520 394" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="276 270 325 289" object-name="_Text">
+			<gpx:sg message="87">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="409 100 419 110" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0000"></>
+				<control-link>
+					<location-horizontal expression="wR0607;" value="0 100" range="0 100" iopoint1="[R0031 31 258"></></></></>
+		<gpx:object rect="286 94 396 138" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0607" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="390 68 445 90" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0607;" text-format="0" iopoint1="[R0032 32 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="390 195 445 217" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0608;" text-format="0" iopoint1="[R0033 33 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="340 154 383 261" object-name="VSCROLL">
+			<gpx:cgbject tagname0="wR0608" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="362 324 432 394" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="431 363 433 434" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="432 325"></>
+						<1 point2f="432 395"></></></></></>
+		<gpx:object rect="374 393 445 395" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="363 394"></>
+						<1 point2f="432 394"></></></></></>
+		<gpx:object rect="362 324 372 334" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<slider-horizontal tagname="wR0609" value="0 100" range="0 60" iopoint1="wR0609 609 48"></>
+					<slider-vertical tagname="wR0610" value="0 100" range="0 60" iopoint2="wR0610 610 48"></></></></>
+		<gpx:object rect="297 350 352 372" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0609;" text-format="0" iopoint1="[R0034 34 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="370 293 425 315" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0610;" text-format="0" iopoint1="[R0035 35 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="372 272 421 288" object-name="_Text">
+			<gpx:sg message="86">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="291 329 356 345" object-name="_Text">
+			<gpx:sg message="79">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="450 324 460 334" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0000"></>
+				<control-link>
+					<location-horizontal expression="wR0609;" value="0 100" range="0 60" iopoint1="[R0036 36 258"></>
+					<location-vertical expression="wR0610;" value="0 100" range="0 60" iopoint2="[R0037 37 258"></></></></>
+		<gpx:object rect="549 60 628 79" object-name="_Text">
+			<gpx:sg message="79">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="724 72 774 122" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0080"></>
+				<control-link>
+					<percentfill-width expression="wR0611;" value="0 100" range="0 100" iopoint1="[R0038 38 258"></></></></>
+		<gpx:object rect="549 81 659 124" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0611" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="665 88 720 110" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0611;" text-format="0" iopoint1="[R0039 39 258">
+						<font original="7"></></></></></>
+		<gpx:object rect="557 126 772 129" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="556 207.500 773 209.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="557 208.500"></>
+							<1 point2f="772 208.500"></></></></></>
+			<gpx:object rect="556 206.500 773 208.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="557 207.500"></>
+							<1 point2f="772 207.500"></></></></></></>
+		<gpx:object rect="549 134 606 153" object-name="_Text">
+			<gpx:sg message="86">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="724 143 774 193" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0080"></>
+				<control-link>
+					<percentfill-height expression="wR0612;" value="0 100" range="0 100" iopoint2="[R0040 40 258"></></></></>
+		<gpx:object rect="665 157 720 179" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0612;" text-format="0" iopoint1="[R0041 41 258">
+						<font original="7"></></></></></>
+		<gpx:object rect="557 203 772 206" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="556 284.500 773 286.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="557 285.500"></>
+							<1 point2f="772 285.500"></></></></></>
+			<gpx:object rect="556 283.500 773 285.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="557 284.500"></>
+							<1 point2f="772 284.500"></></></></></></>
+		<gpx:object rect="614 133 661 203" object-name="VSCROLL">
+			<gpx:cgbject tagname0="wR0612" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="544 204 593 223" object-name="_Text">
+			<gpx:sg message="87">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="667 212 717 262" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0"></></></>
+		<gpx:object rect="716 211 718 263" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="717 212"></>
+						<1 point2f="717 262"></></></></></>
+		<gpx:object rect="667 261 719 263" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject pen-color="FFFFFF">
+					<Array name="cpoint" size="2">
+						<0 point2f="668 262"></>
+						<1 point2f="718 262"></></></></></>
+		<gpx:object rect="667 212 677 222" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="808080"></>
+				<control-link>
+					<slider-horizontal tagname="wR0613" value="0 100" range="0 40" iopoint1="wR0613 613 48"></>
+					<slider-vertical tagname="wR0614" value="0 100" range="0 40" iopoint2="wR0614 614 48"></></></></>
+		<gpx:object rect="605 250 660 267" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0613;" text-format="0" iopoint1="[R0042 42 258">
+						<font original="7"></></></></></>
+		<gpx:object rect="605 219 660 236" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0614;" text-format="0" iopoint1="[R0043 43 258">
+						<font original="7"></></></></></>
+		<gpx:object rect="606 203 655 219" object-name="_Text">
+			<gpx:sg message="86">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="599 233 664 249" object-name="_Text">
+			<gpx:sg message="79">
+				<gpx:cgbject Transparent="1"></>
+				<font original="6"></></></>
+		<gpx:object rect="724 212 774 262" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0080"></>
+				<control-link>
+					<percentfill-width expression="wR0613;" value="0 100" range="0 100" iopoint1="[R0044 44 258"></>
+					<percentfill-height expression="wR0614;" value="0 100" range="0 100" reference="1" iopoint2="[R0045 45 258"></></></></>
+		<gpx:object rect="557 269 772 272" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="556 350.500 773 352.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="557 351.500"></>
+							<1 point2f="772 351.500"></></></></></>
+			<gpx:object rect="556 349.500 773 351.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="557 350.500"></>
+							<1 point2f="772 350.500"></></></></></></>
+		<gpx:object rect="544 268 617 287" object-name="_Text">
+			<gpx:sg message="148">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="545 336 597 355" object-name="_Text">
+			<gpx:sg message="149">
+				<gpx:cgbject Transparent="1"></>
+				<font original="2"></></></>
+		<gpx:object rect="723 278 773 328" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0080"></>
+				<control-link>
+					<percentfill-radial expression="wR0615;" value="0 100" range="0 100" iopoint1="[R0046 46 258"></></></></>
+		<gpx:object rect="557 336 772 339" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="556 417.500 773 419.500" object-name="_HVLine">
+				<gpx:sg translate="0 1">
+					<gpx:cgbject pen-color="FFFFFF">
+						<Array name="cpoint" size="2">
+							<0 point2f="557 418.500"></>
+							<1 point2f="772 418.500"></></></></></>
+			<gpx:object rect="556 416.500 773 418.500" object-name="_HVLine">
+				<gpx:sg>
+					<gpx:cgbject>
+						<Array name="cpoint" size="2">
+							<0 point2f="557 417.500"></>
+							<1 point2f="772 417.500"></></></></></></>
+		<gpx:object rect="723 344 773 394" object-name="_Ellipse">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF0080"></>
+				<control-link>
+					<percentfill-sweep expression="wR0616;" value="0 100" range="0 100" iopoint1="[R0047 47 258"></></></></>
+		<gpx:object rect="549 291 659 334" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0615" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="665 292 720 314" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0615;" text-format="0" iopoint1="[R0048 48 258">
+						<font original="7"></></></></></>
+		<gpx:object rect="549 357 659 400" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0616" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="665 359 720 381" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0616;" text-format="0" iopoint1="[R0049 49 258">
+						<font original="7"></></></></></></>
+	<gpx:object page-title="Window5" rect="0 80 800 492" object-name="PageFrame" tagname="bA0006">
+		<gpx:pageframe>
+			<Array name="message" size="200">
+				<0>Miscellaneous Link</></>
+			<gpx:cgbject text-color="FFFFFF" pen-color="FFFFFF" brush-color="C4C4C4" title-size="0" y-grid="0" drawing-OP="8800C6"></></>
+		<gpx:object rect="291 65 471 245" object-name="_Ellipse">
+			<gpx:sg>
+				<gpx:cgbject></></></>
+		<gpx:object rect="285 154 478 248" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="C0C0C0" pen-style="5"></></></>
+		<gpx:object rect="12 11 155 39" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject x-scale="1.029" y-scale="0.966"></></>
+			<gpx:object rect="14.500 91 152.500 119" object-name="_Rectangle">
+				<gpx:sg>
+					<gpx:cgbject brush-color="C0C0C0" x-scale="1.029" y-scale="0.966"></></></>
+			<gpx:object rect="17.500 118 147.500 120" object-name="_HVLine">
+				<gpx:sg translate="-1 14">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.029" y-scale="0.966">
+						<Array name="cpoint" size="2">
+							<0 point2f="14.500 119"></>
+							<1 point2f="153.500 119"></></></></></>
+			<gpx:object rect="150.500 91 154.500 121" object-name="_HVLine">
+				<gpx:sg translate="69 1">
+					<gpx:cgbject pen-color="FFFFFF" x-scale="1.029" y-scale="0.966">
+						<Array name="cpoint" size="2">
+							<0 point2f="152.500 92"></>
+							<1 point2f="152.500 120"></></></></></></>
+		<gpx:object rect="16 11 151 34" object-name="GROUPHEAD">
+			<gpx:sg>
+				<gpx:cgbject></></>
+			<gpx:object rect="17.500 92.500 151.500 114.500" object-name="_Text">
+				<gpx:sg translate="1 1" message="110">
+					<gpx:cgbject Transparent="1" text-color="FFFFFF" text-align="1"></>
+					<font original="1"></></></>
+			<gpx:object rect="16.500 91.500 150.500 113.500" object-name="_Text">
+				<gpx:sg message="110">
+					<gpx:cgbject Transparent="1" text-color="800000" text-align="1"></>
+					<font original="1"></></></></>
+		<gpx:object rect="8 55 266 218" object-name="_Rectangle">
+			<gpx:sg translate="0 1">
+				<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+		<gpx:object rect="7 54 265 217" object-name="_Rectangle">
+			<gpx:sg translate="-1 0">
+				<gpx:cgbject Transparent="1"></></></>
+		<gpx:object rect="16 40 94 62" object-name="_Text">
+			<gpx:sg message="112">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="147 64 217 134" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF00"></>
+				<control-link>
+					<visibility expression="bA0035;" iopoint1="[D0019 19 257"></></></></>
+		<gpx:object rect="51 98 121 168" object-name="_Button">
+			<gpx:sg message="113">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0035" keypad="2" accelerator="1 0" iopoint1="bA0035 35 5"></></></></>
+		<gpx:object rect="8 241 266 404" object-name="_Rectangle">
+			<gpx:sg translate="0 1">
+				<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+		<gpx:object rect="7 240 265 403" object-name="_Rectangle">
+			<gpx:sg translate="-1 0">
+				<gpx:cgbject Transparent="1"></></></>
+		<gpx:object rect="16 226 63 248" object-name="_Text">
+			<gpx:sg message="114">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="272 55 530 218" object-name="_Rectangle">
+			<gpx:sg translate="0 1">
+				<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+		<gpx:object rect="271 54 529 217" object-name="_Rectangle">
+			<gpx:sg translate="-1 0">
+				<gpx:cgbject Transparent="1"></></></>
+		<gpx:object rect="280 40 383 62" object-name="_Text">
+			<gpx:sg message="115">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="272 241 530 404" object-name="_Rectangle">
+			<gpx:sg translate="0 1">
+				<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+		<gpx:object rect="271 240 529 403" object-name="_Rectangle">
+			<gpx:sg translate="-1 0">
+				<gpx:cgbject Transparent="1"></></></>
+		<gpx:object rect="280 226 349 248" object-name="_Text">
+			<gpx:sg message="116">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="536 55 794 405" object-name="_Rectangle">
+			<gpx:sg translate="0 1">
+				<gpx:cgbject Transparent="1" pen-color="FFFFFF"></></></>
+		<gpx:object rect="535 54 793 404" object-name="_Rectangle">
+			<gpx:sg translate="-1 0">
+				<gpx:cgbject Transparent="1"></></></>
+		<gpx:object rect="544 40 637 62" object-name="_Text">
+			<gpx:sg message="117">
+				<gpx:cgbject text-color="800000" brush-color="C0C0C0"></>
+				<font original="1"></></></>
+		<gpx:object rect="579 78 649 148" object-name="_Button">
+			<gpx:sg message="118">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0039" accelerator="1 0" iopoint1="bA0039 39 5"></>
+					<fillcolor-discrete expression="w$PLvl == 4;" color-on="FF" color-off="C0C0C0" iopoint1="[D0020 20 257"></>
+					<password authority="3"></></></></>
+		<gpx:object rect="147 139 217 209" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF"></>
+				<control-link>
+					<visibility expression="bA0035;" state="1" iopoint1="[D0021 21 257"></></></></>
+		<gpx:object rect="147 251 217 321" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF00"></>
+				<control-link>
+					<blink expression="bA0036;" speed="3" iopoint1="[D0022 22 257"></></></></>
+		<gpx:object rect="51 285 121 355" object-name="_Button">
+			<gpx:sg message="113">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0036" keypad="2" accelerator="1 0" iopoint1="bA0036 36 5"></></></></>
+		<gpx:object rect="147 326 217 396" object-name="_Rectangle">
+			<gpx:sg>
+				<gpx:cgbject brush-color="FF00"></>
+				<control-link>
+					<blink expression="bA0036;" color-3-level="0 FF FFFFFF" visibility="1" speed="3" iopoint1="[D0023 23 257"></></></></>
+		<gpx:object rect="322 167 440 211" object-name="HSCROLL">
+			<gpx:cgbject tagname0="wR0617" x-max="100" drawing-OP="8800C6">
+				<font original="3"></></></>
+		<gpx:object rect="455 175 514 206" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="808080" text-align="1"></>
+				<control-link>
+					<value-analog expression="wR0617;" text-format="0" iopoint1="[R0050 50 258">
+						<font original="2"></></></></></>
+		<gpx:object rect="290 153 380 155" object-name="_HVLine">
+			<gpx:sg>
+				<gpx:cgbject>
+					<Array name="cpoint" size="2">
+						<0 point2f="291 154"></>
+						<1 point2f="379 154"></></></>
+				<control-link>
+					<orientation expression="wR0617;" value="0 100" range="0 180" offset="45 0" iopoint1="[R0051 51 258"></></></></>
+		<gpx:object rect="376 150 384 158" object-name="_Ellipse">
+			<gpx:sg>
+				<gpx:cgbject brush-color="0"></></></>
+		<gpx:object rect="303 285 373 355" object-name="_Button">
+			<gpx:sg message="113">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0037" keypad="2" accelerator="1 0" iopoint1="bA0037 37 5"></></></></>
+		<gpx:object rect="416 251 486 321" object-name="_Button">
+			<gpx:sg>
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<control-link>
+					<PB-discrete tagname="bA0038" keypad="2" accelerator="1 0" iopoint1="bA0038 38 5"></>
+					<fillcolor-discrete expression="bA0038;" color-on="FF" color-off="C0C0C0" iopoint1="[D0024 24 257"></>
+					<disable expression="bA0037;" iopoint1="[D0025 25 257"></></></></>
+		<gpx:object rect="429 269 470 298" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject Transparent="1" text-align="1"></>
+				<control-link>
+					<value-discrete expression="bA0038;" msg-on="121" msg-off="122" iopoint1="[R0052 52 258">
+						<font original="4"></>
+						<font original="4"></></>
+					<textcolor-discrete expression="bA0038;" color-on="FFFFFF" iopoint1="[D0026 26 257"></></></></>
+		<gpx:object rect="407 336 495 384" object-name="_Text">
+			<gpx:sg>
+				<gpx:cgbject text-color="FFFFFF" brush-color="0" text-align="1"></>
+				<control-link>
+					<userinput-analog tagname="wR0618" to-user="123" text-format="0" value="0 100" keypad="1" accelerator="1 0" iopoint1="wR0618 618 48">
+						<font original="5"></></>
+					<disable expression="bA0037;" iopoint1="[D0027 27 257"></></></></>
+		<gpx:object rect="685 78 755 148" object-name="_Button">
+			<gpx:sg message="124">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0043" accelerator="1 0" iopoint1="bA0043 43 5"></>
+					<fillcolor-discrete expression="bA0043;" color-on="FF00" color-off="C0C0C0" iopoint1="[D0028 28 257"></>
+					<password login_out="1"></></></></>
+		<gpx:object rect="579 158 649 228" object-name="_Button">
+			<gpx:sg message="125">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0040" accelerator="1 0" iopoint1="bA0040 40 5"></>
+					<fillcolor-discrete expression="w$PLvl == 3;" color-on="FF" color-off="C0C0C0" iopoint1="[D0029 29 257"></>
+					<password authority="2"></></></></>
+		<gpx:object rect="579 238 649 308" object-name="_Button">
+			<gpx:sg message="126">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0041" accelerator="1 0" iopoint1="bA0041 41 5"></>
+					<fillcolor-discrete expression="w$PLvl == 2;" color-on="FF" color-off="C0C0C0" iopoint1="[D0030 30 257"></>
+					<password authority="1"></></></></>
+		<gpx:object rect="579 318 649 388" object-name="_Button">
+			<gpx:sg message="127">
+				<gpx:cgbject pen-color="808080" brush-color="C0C0C0" text-align="1"></>
+				<font original="2"></>
+				<control-link>
+					<PB-discrete tagname="bA0042" accelerator="1 0" iopoint1="bA0042 42 5"></>
+					<fillcolor-discrete expression="w$PLvl == 1;" color-on="FF" color-off="C0C0C0" iopoint1="[D0031 31 257"></></></></></></>
