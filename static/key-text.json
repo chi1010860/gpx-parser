@@ -1,0 +1,426 @@
+[
+    {
+        "id": "1",
+        "original": "Output"
+    },
+    {
+        "id": "3",
+        "original": "Value Dispaly"
+    },
+    {
+        "id": "4",
+        "original": "Discrete"
+    },
+    {
+        "id": "5",
+        "original": "Please input int. number 0~100"
+    },
+    {
+        "id": "6",
+        "original": "Analog (Int.)"
+    },
+    {
+        "id": "7",
+        "original": "Please input scale number 0.0~100.0"
+    },
+    {
+        "id": "8",
+        "original": "Analog (Int. Scale)"
+    },
+    {
+        "id": "9",
+        "original": "Please input float number 0.0~100.0"
+    },
+    {
+        "id": "10",
+        "original": "Analog (float)"
+    },
+    {
+        "id": "11",
+        "original": "Please input string. ( 0 ~ 12 characters )"
+    },
+    {
+        "id": "12",
+        "original": "String Input"
+    },
+    {
+        "id": "13",
+        "original": "ON"
+    },
+    {
+        "id": "14",
+        "original": "OFF"
+    },
+    {
+        "id": "15",
+        "original": "String Output"
+    },
+    {
+        "id": "16",
+        "original": "Input"
+    },
+    {
+        "id": "17",
+        "original": "Display"
+    },
+    {
+        "id": "18",
+        "original": "User<br>Input"
+    },
+    {
+        "id": "21",
+        "original": "Color<br>Control"
+    },
+    {
+        "id": "27",
+        "original": "Figure<br>Control"
+    },
+    {
+        "id": "30",
+        "original": "Misc-<br>ellaneous"
+    },
+    {
+        "id": "34",
+        "original": "中文"
+    },
+    {
+        "id": "35",
+        "original": "English"
+    },
+    {
+        "id": "40",
+        "original": "Sample Project"
+    },
+    {
+        "id": "41",
+        "original": "範例專案"
+    },
+    {
+        "id": "46",
+        "original": "Control Link"
+    },
+    {
+        "id": "52",
+        "original": "User priority :"
+    },
+    {
+        "id": "54",
+        "original": "None"
+    },
+    {
+        "id": "55",
+        "original": "End User"
+    },
+    {
+        "id": "56",
+        "original": "Maintenance"
+    },
+    {
+        "id": "57",
+        "original": "System Int."
+    },
+    {
+        "id": "58",
+        "original": "Administrator"
+    },
+    {
+        "id": "60",
+        "original": "User Input"
+    },
+    {
+        "id": "63",
+        "original": "Slider"
+    },
+    {
+        "id": "64",
+        "original": "Push Buttons"
+    },
+    {
+        "id": "65",
+        "original": "Please push either button."
+    },
+    {
+        "id": "66",
+        "original": "Set ON"
+    },
+    {
+        "id": "67",
+        "original": "Set OFF"
+    },
+    {
+        "id": "68",
+        "original": "ON"
+    },
+    {
+        "id": "69",
+        "original": "OFF"
+    },
+    {
+        "id": "71",
+        "original": "Please input number 0~100"
+    },
+    {
+        "id": "73",
+        "original": "Please input scale number 0.0~100.0"
+    },
+    {
+        "id": "75",
+        "original": "Please input float 0.0~100.0"
+    },
+    {
+        "id": "77",
+        "original": "Please input string. ( 0 ~ 12 characters )"
+    },
+    {
+        "id": "78",
+        "original": "String"
+    },
+    {
+        "id": "79",
+        "original": "Horizontal"
+    },
+    {
+        "id": "80",
+        "original": "0"
+    },
+    {
+        "id": "81",
+        "original": "100"
+    },
+    {
+        "id": "82",
+        "original": "50"
+    },
+    {
+        "id": "86",
+        "original": "Vertical"
+    },
+    {
+        "id": "87",
+        "original": "Planar"
+    },
+    {
+        "id": "88",
+        "original": " Direct"
+    },
+    {
+        "id": "90",
+        "original": "Reverse"
+    },
+    {
+        "id": "91",
+        "original": "Toggle"
+    },
+    {
+        "id": "92",
+        "original": "Set"
+    },
+    {
+        "id": "93",
+        "original": "Reset"
+    },
+    {
+        "id": "94",
+        "original": "ON"
+    },
+    {
+        "id": "95",
+        "original": "OFF"
+    },
+    {
+        "id": "96",
+        "original": "ON"
+    },
+    {
+        "id": "97",
+        "original": "OFF"
+    },
+    {
+        "id": "98",
+        "original": "ON"
+    },
+    {
+        "id": "99",
+        "original": "OFF"
+    },
+    {
+        "id": "100",
+        "original": "ON"
+    },
+    {
+        "id": "101",
+        "original": "OFF"
+    },
+    {
+        "id": "102",
+        "original": "Action"
+    },
+    {
+        "id": "103",
+        "original": "On Down"
+    },
+    {
+        "id": "104",
+        "original": "While Down"
+    },
+    {
+        "id": "105",
+        "original": "On Up"
+    },
+    {
+        "id": "106",
+        "original": "Show window"
+    },
+    {
+        "id": "107",
+        "original": "Hide window"
+    },
+    {
+        "id": "110",
+        "original": "Miscellaneous"
+    },
+    {
+        "id": "112",
+        "original": "Visibility"
+    },
+    {
+        "id": "113",
+        "original": "Button"
+    },
+    {
+        "id": "114",
+        "original": "Blink"
+    },
+    {
+        "id": "115",
+        "original": "Orientation"
+    },
+    {
+        "id": "116",
+        "original": "Disable"
+    },
+    {
+        "id": "117",
+        "original": "Password"
+    },
+    {
+        "id": "118",
+        "original": "Admin."
+    },
+    {
+        "id": "121",
+        "original": "ON"
+    },
+    {
+        "id": "122",
+        "original": "OFF"
+    },
+    {
+        "id": "123",
+        "original": "Please input number 0 ~ 100"
+    },
+    {
+        "id": "124",
+        "original": "Logout"
+    },
+    {
+        "id": "125",
+        "original": "Sys. Int."
+    },
+    {
+        "id": "126",
+        "original": "Maint."
+    },
+    {
+        "id": "127",
+        "original": "EndUser"
+    },
+    {
+        "id": "128",
+        "original": "Figure Control"
+    },
+    {
+        "id": "130",
+        "original": "Object Size"
+    },
+    {
+        "id": "131",
+        "original": "Location"
+    },
+    {
+        "id": "132",
+        "original": "Percent Fill"
+    },
+    {
+        "id": "133",
+        "original": "Width"
+    },
+    {
+        "id": "134",
+        "original": "Height"
+    },
+    {
+        "id": "135",
+        "original": "Area"
+    },
+    {
+        "id": "148",
+        "original": "Radiation"
+    },
+    {
+        "id": "149",
+        "original": "Sweep"
+    },
+    {
+        "id": "150",
+        "original": "Color Control"
+    },
+    {
+        "id": "152",
+        "original": "Fill Color"
+    },
+    {
+        "id": "153",
+        "original": "Line Color"
+    },
+    {
+        "id": "154",
+        "original": "Text Color"
+    },
+    {
+        "id": "156",
+        "original": "Analog"
+    },
+    {
+        "id": "157",
+        "original": "Discrete Alarm"
+    },
+    {
+        "id": "158",
+        "original": "Alarm"
+    },
+    {
+        "id": "159",
+        "original": "Analog Alarm"
+    },
+    {
+        "id": "160",
+        "original": "LoLo"
+    },
+    {
+        "id": "161",
+        "original": "Lo"
+    },
+    {
+        "id": "162",
+        "original": "HiHi"
+    },
+    {
+        "id": "163",
+        "original": "Hi"
+    },
+    {
+        "id": "182",
+        "original": "Text"
+    }
+]

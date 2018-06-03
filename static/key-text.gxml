@@ -1,6 +1,6 @@
 <key-text>
-			<1 original="Output"></>
-			<3 original="Value Dispaly"></>
+			<1 original="Output" zh-tw="輸出"></>
+			<3 original="Value Dispaly" zh-tw="數值顯示"></>
 			<4 original="Discrete"></>
 			<5 original="Please input int. number 0~100"></>
 			<6 original="Analog (Int.)"></>
