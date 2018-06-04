@@ -3,112 +3,112 @@
 		<language-table size="1">
 			<0>original</></>
 		<key-text>
-			<1 original="Output"></>
-			<3 original="Value Dispaly"></>
-			<4 original="Discrete"></>
-			<5 original="Please input int. number 0~100"></>
-			<6 original="Analog (Int.)"></>
-			<7 original="Please input scale number 0.0~100.0"></>
-			<8 original="Analog (Int. Scale)"></>
-			<9 original="Please input float number 0.0~100.0"></>
-			<10 original="Analog (float)"></>
-			<11 original="Please input string. ( 0 ~ 12 characters )"></>
-			<12 original="String Input"></>
-			<13 original="ON"></>
-			<14 original="OFF"></>
-			<15 original="String Output"></>
-			<16 original="Input"></>
-			<17 original="Display"></>
-			<18 original="User<br>Input"></>
-			<21 original="Color<br>Control"></>
-			<27 original="Figure<br>Control"></>
-			<30 original="Misc-<br>ellaneous"></>
-			<34 original="中文"></>
-			<35 original="English"></>
-			<40 original="Sample Project"></>
-			<41 original="範例專案"></>
-			<46 original="Control Link"></>
-			<52 original="User priority :"></>
-			<54 original="None"></>
-			<55 original="End User"></>
-			<56 original="Maintenance"></>
-			<57 original="System Int."></>
-			<58 original="Administrator"></>
-			<60 original="User Input"></>
-			<63 original="Slider"></>
-			<64 original="Push Buttons"></>
-			<65 original="Please push either button."></>
-			<66 original="Set ON"></>
-			<67 original="Set OFF"></>
-			<68 original="ON"></>
-			<69 original="OFF"></>
-			<71 original="Please input number 0~100"></>
-			<73 original="Please input scale number 0.0~100.0"></>
-			<75 original="Please input float 0.0~100.0"></>
-			<77 original="Please input string. ( 0 ~ 12 characters )"></>
-			<78 original="String"></>
-			<79 original="Horizontal"></>
-			<80 original="0"></>
-			<81 original="100"></>
-			<82 original="50"></>
-			<86 original="Vertical"></>
-			<87 original="Planar"></>
-			<88 original=" Direct"></>
-			<90 original="Reverse"></>
-			<91 original="Toggle"></>
-			<92 original="Set"></>
-			<93 original="Reset"></>
-			<94 original="ON"></>
-			<95 original="OFF"></>
-			<96 original="ON"></>
-			<97 original="OFF"></>
-			<98 original="ON"></>
-			<99 original="OFF"></>
-			<100 original="ON"></>
-			<101 original="OFF"></>
-			<102 original="Action"></>
-			<103 original="On Down"></>
-			<104 original="While Down"></>
-			<105 original="On Up"></>
-			<106 original="Show window"></>
-			<107 original="Hide window"></>
-			<110 original="Miscellaneous"></>
-			<112 original="Visibility"></>
-			<113 original="Button"></>
-			<114 original="Blink"></>
-			<115 original="Orientation"></>
-			<116 original="Disable"></>
-			<117 original="Password"></>
-			<118 original="Admin."></>
-			<121 original="ON"></>
-			<122 original="OFF"></>
-			<123 original="Please input number 0 ~ 100"></>
-			<124 original="Logout"></>
-			<125 original="Sys. Int."></>
-			<126 original="Maint."></>
-			<127 original="EndUser"></>
-			<128 original="Figure Control"></>
-			<130 original="Object Size"></>
-			<131 original="Location"></>
-			<132 original="Percent Fill"></>
-			<133 original="Width"></>
-			<134 original="Height"></>
-			<135 original="Area"></>
-			<148 original="Radiation"></>
-			<149 original="Sweep"></>
-			<150 original="Color Control"></>
-			<152 original="Fill Color"></>
-			<153 original="Line Color"></>
-			<154 original="Text Color"></>
-			<156 original="Analog"></>
-			<157 original="Discrete Alarm"></>
-			<158 original="Alarm"></>
-			<159 original="Analog Alarm"></>
-			<160 original="LoLo"></>
-			<161 original="Lo"></>
-			<162 original="HiHi"></>
-			<163 original="Hi"></>
-			<182 original="Text"></></>
+			<1 original="Output" zh-tw="輸出"></>
+			<3 original="Value Dispaly" zh-tw="數值顯示"></>
+			<4 original="Discrete" zh-tw="離散"></>
+			<5 original="Please input int. number 0~100" zh-tw="請輸入0~100間的整數"></>
+			<6 original="Analog (Int.)" zh-tw="類比(Int.)"></>
+			<7 original="Please input scale number 0.0~100.0" zh-tw="請輸入0.0~100.0間的小數"></>
+			<8 original="Analog (Int. Scale)" zh-tw="類比(Scale.)"></>
+			<9 original="Please input float number 0.0~100.0" zh-tw="請輸入0.0~100.0間的浮點數"></>
+			<10 original="Analog (float)" zh-tw="類比(float.)"></>
+			<11 original="Please input string. ( 0 ~ 12 characters )" zh-tw="請輸入0~12字元內的字串"></>
+			<12 original="String Input" zh-tw="字串輸入"></>
+			<13 original="ON" zh-tw="開"></>
+			<14 original="OFF" zh-tw="關"></>
+			<15 original="String Output" zh-tw="字串輸出"></>
+			<16 original="Input" zh-tw="輸入"></>
+			<17 original="Display" zh-tw="顯示"></>
+			<18 original="User<br>Input" zh-tw="使用者<br>輸入"></>
+			<21 original="Color<br>Control" zh-tw="顏色控制"></>
+			<27 original="Figure<br>Control" zh-tw="圖案控制"></>
+			<30 original="Misc-<br>ellaneous" zh-tw="其他"></>
+			<34 original="中文" zh-tw="中文"></>
+			<35 original="English" zh-tw="英文"></>
+			<40 original="Sample Project" zh-tw="範例專案"></>
+			<41 original="範例專案" zh-tw="範例專案"></>
+			<46 original="Control Link" zh-tw="控制連結"></>
+			<52 original="User priority :" zh-tw="使用者優先:"></>
+			<54 original="None" zh-tw="無"></>
+			<55 original="End User" zh-tw="終端使用者"></>
+			<56 original="Maintenance" zh-tw="維護"></>
+			<57 original="System Int." zh-tw="系統網路"></>
+			<58 original="Administrator" zh-tw="管理員"></>
+			<60 original="User Input" zh-tw="使用者輸入"></>
+			<63 original="Slider" zh-tw="滑塊"></>
+			<64 original="Push Buttons" zh-tw="按鈕"></>
+			<65 original="Please push either button." zh-tw="請按一個按鈕"></>
+			<66 original="Set ON" zh-tw="打開"></>
+			<67 original="Set OFF" zh-tw="關閉"></>
+			<68 original="ON" zh-tw="開"></>
+			<69 original="OFF" zh-tw="關"></>
+			<71 original="Please input number 0~100" zh-tw="請輸入0~100間的整數"></>
+			<73 original="Please input scale number 0.0~100.0" zh-tw="請輸入0.0~100.0之間的小數"></>
+			<75 original="Please input float 0.0~100.0" zh-tw="請輸入0.0~100.0之間的浮點數"></>
+			<77 original="Please input string. ( 0 ~ 12 characters )" zh-tw="請輸入0~12字元內的字串"></>
+			<78 original="String" zh-tw="字串"></>
+			<79 original="Horizontal" zh-tw="水平"></>
+			<80 original="0" zh-tw="0"></>
+			<81 original="100" zh-tw="100"></>
+			<82 original="50" zh-tw="50"></>
+			<86 original="Vertical" zh-tw="垂直"></>
+			<87 original="Planar" zh-tw="平板"></>
+			<88 original=" Direct" zh-tw="直接"></>
+			<90 original="Reverse" zh-tw="反向"></>
+			<91 original="Toggle" zh-tw="切換"></>
+			<92 original="Set" zh-tw="設定"></>
+			<93 original="Reset" zh-tw="重設"></>
+			<94 original="ON" zh-tw="開"></>
+			<95 original="OFF" zh-tw="關"></>
+			<96 original="ON" zh-tw="開"></>
+			<97 original="OFF" zh-tw="關"></>
+			<98 original="ON" zh-tw="開"></>
+			<99 original="OFF" zh-tw="關"></>
+			<100 original="ON" zh-tw="開"></>
+			<101 original="OFF" zh-tw="關"></>
+			<102 original="Action" zh-tw="動作"></>
+			<103 original="On Down" zh-tw="按紐往下"></>
+			<104 original="While Down" zh-tw="按住"></>
+			<105 original="On Up" zh-tw="按鈕往上"></>
+			<106 original="Show window" zh-tw="顯示視窗"></>
+			<107 original="Hide window" zh-tw="隱藏視窗"></>
+			<110 original="Miscellaneous" zh-tw="其他"></>
+			<112 original="Visibility" zh-tw="顯示"></>
+			<113 original="Button" zh-tw="按鈕"></>
+			<114 original="Blink" zh-tw="閃爍"></>
+			<115 original="Orientation" zh-tw="導向"></>
+			<116 original="Disable" zh-tw="使失效"></>
+			<117 original="Password" zh-tw="密碼"></>
+			<118 original="Admin." zh-tw="管理"></>
+			<121 original="ON" zh-tw="開"></>
+			<122 original="OFF" zh-tw="關"></>
+			<123 original="Please input number 0 ~ 100" zh-tw="請輸入0~100間的整數"></>
+			<124 original="Logout" zh-tw="登出"></>
+			<125 original="Sys. Int." zh-tw="系統網路"></>
+			<126 original="Maint." zh-tw="主要"></>
+			<127 original="EndUser" zh-tw="終端使用者"></>
+			<128 original="Figure Control" zh-tw="圖案控制"></>
+			<130 original="Object Size" zh-tw="物件大小"></>
+			<131 original="Location" zh-tw="物件位置"></>
+			<132 original="Percent Fill" zh-tw="填滿百分比"></>
+			<133 original="Width" zh-tw="寬度"></>
+			<134 original="Height" zh-tw="高度"></>
+			<135 original="Area" zh-tw="面積"></>
+			<148 original="Radiation" zh-tw="輻射"></>
+			<149 original="Sweep" zh-tw="掃出"></>
+			<150 original="Color Control" zh-tw="顏色控制"></>
+			<152 original="Fill Color" zh-tw="填滿顏色"></>
+			<153 original="Line Color" zh-tw="線段顏色"></>
+			<154 original="Text Color" zh-tw="文字顏色"></>
+			<156 original="Analog" zh-tw="類比"></>
+			<157 original="Discrete Alarm" zh-tw="二元警示"></>
+			<158 original="Alarm" zh-tw="警示"></>
+			<159 original="Analog Alarm" zh-tw="類比警示"></>
+			<160 original="LoLo" zh-tw="LoLo"></>
+			<161 original="Lo" zh-tw="Lo"></>
+			<162 original="HiHi" zh-tw="HiHi"></>
+			<163 original="Hi" zh-tw="Hi"></>
+			<182 original="Text" zh-tw="文字"></></>
 		<ss:font size="12">
 			<1 height="-19" weight="700" out-precision="3" pitchAndfamily="34"></>
 			<2 height="-16" weight="700" out-precision="3" pitchAndfamily="34"></>
