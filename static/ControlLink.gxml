@@ -1,7 +1,8 @@
 ﻿<gpx:document version="133C90D" data-type="5" directory="C:\Runtimeprj\ControlLink_800x600\data" authorization-level="3" screen-saver="300" rect="0 0 800 600" window-title="WINPC32" grid-size="10" app-dir="1" color-void="808080" color-paper="FFFFFF" syste-menu="1" language="original">
 	<style-sheet>
-		<language-table size="1">
-			<0>original</></>
+		<language-table size="2">
+			<0>original</>
+			<1>zh-tw</></>
 		<key-text>
 			<1 original="Output" zh-tw="輸出"></>
 			<3 original="Value Dispaly" zh-tw="數值顯示"></>
