@@ -8,6 +8,7 @@ fs.readFile(filePath, function (err, data) {
     var gxml = data.toString()  // get the raw data
 
     // get the object of data
+    gpx.gpxDocument = getGpxDocument(gxml)
     gpx.languageTable = getLanguageTable(gxml)
     gpx.keyText = getKeyText(gxml)
     gpx.pageFrame = getPageFrame(gxml)
@@ -16,18 +17,67 @@ fs.readFile(filePath, function (err, data) {
     // debug
     // console.log(gpx.pageFrame)
 
-    // write out if necessary
-    gpx_json = JSON.stringify(gpx)
-    fs.writeFile('static/ControlLink.json', gpx_json, function (err) {
-        if (err) throw err
-        console.log('File in JSON is saved!')
-    })
+    // // write out if necessary
+    // gpx_json = JSON.stringify(gpx)
+    // fs.writeFile('static/ControlLink.json', gpx_json, function (err) {
+    //     if (err) throw err
+    //     console.log('File in JSON is saved!')
+    // })
 })
 
 // module.exports
 module.exports = gpx;
 
 // get the content of each tag
+function getGpxDocument(_gxml) {
+    var _gpxDocument = {}
+    var targetTag = _gxml.match(/<gpx:document .*?>/g)[0]
+
+    // get version
+    _gpxDocument.version = targetTag.match(/version=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get dataType
+    _gpxDocument.dataType = targetTag.match(/data-type=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get directory
+    _gpxDocument.directory = targetTag.match(/directory=".*?"/)[0].match(/".*"/)[0].match(/[\w:\\]+/)[0]
+
+    // get authorizationLevel
+    _gpxDocument.authorizationLevel = targetTag.match(/authorization-level=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get screenSaver
+    _gpxDocument.screenSaver = targetTag.match(/screen-saver=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get windowTitle
+    _gpxDocument.windowTitle = targetTag.match(/window-title=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get gridSize
+    _gpxDocument.gridSize = targetTag.match(/grid-size=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get appDir
+    _gpxDocument.appDir = targetTag.match(/app-dir=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get colorVoid
+    _gpxDocument.colorVoid = '#' + targetTag.match(/color-void=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get colorPaper
+    _gpxDocument.colorPaper = '#' + targetTag.match(/color-paper=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get systemMenu
+    _gpxDocument.systemMenu = targetTag.match(/syste-menu=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get language
+    _gpxDocument.language = targetTag.match(/language=".*?"/)[0].match(/".*"/)[0].match(/\w+/)[0]
+
+    // get rect
+    _gpxDocument.rect = targetTag.match(/rect=".*?"/g)[0].match(/[0-9]+/g)
+    for (let key in _gpxDocument.rect) {
+        _gpxDocument.rect[key] = parseInt(_gpxDocument.rect[key])
+    }
+
+    return _gpxDocument
+}
+
 function getLanguageTable(_gxml) {
     var _languageTable = []
     var targetTag = _gxml.match(/<language-table[\s\S]*?(<\/>){2}/)[0]
