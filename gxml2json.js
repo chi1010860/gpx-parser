@@ -10,10 +10,18 @@ fs.readFile(filePath, function (err, data) {
     // get the object of data
     gpx.languageTable = getLanguageTable(gxml)
     gpx.keyText = getKeyText(gxml)
+    gpx.pageFrame = getPageFrame(gxml)
     gpx.button = getButton(gxml)
 
     // debug
-    console.log(gpx)
+    // console.log(gpx.pageFrame)
+
+    // write out if necessary
+    gpx_json = JSON.stringify(gpx)
+    fs.writeFile('static/ControlLink.json', gpx_json, function (err) {
+        if (err) throw err
+        console.log('File in JSON is saved!')
+    })
 })
 
 // module.exports
@@ -50,6 +58,78 @@ function getKeyText(_gxml) {
 
 function getPageFrame(_gxml) {
     var _pageFrame = []
+    var targetTag = _gxml.match(/<gpx:object.*?object-name="PageFrame"[\s\S]*?<gpx:object/g)
+    for (let i in targetTag) {
+        // Defination of item in this scope
+        var item = {
+            pageTitle: "",
+            tagname: "",
+            message: "",
+            textColor: "",
+            penColor: "",
+            brushColor: "",
+            titleSize: 0,
+            yGrid: 0,
+            drawingOP: "",
+        }
+
+        // get pageTitle
+        var pageTitleTag = targetTag[i].match(/page-title=".*?"/)[0]
+        pageTitleTag = pageTitleTag.match(/".*"/)[0]
+        pageTitleTag = pageTitleTag.match(/\w+/)[0]
+        item.pageTitle = pageTitleTag
+
+        // get tagname
+        var tagnameTag = targetTag[i].match(/tagname=".*?"/)[0]
+        tagnameTag = tagnameTag.match(/".*"/)[0]
+        tagnameTag = tagnameTag.match(/\w+/)[0]
+        item.tagname = tagnameTag
+
+        // get message
+        var messageTag = targetTag[i].match(/"message"[\s\S]*?<\/><\/>/)[0]
+        messageTag = messageTag.match(/>.*</)[0]
+        messageTag = messageTag.match(/[\w\s]+/)[0]
+        item.message = messageTag
+
+        // get textColor
+        var textColorTag = targetTag[i].match(/text-color=".*?"/)[0]
+        textColorTag = textColorTag.match(/".*"/)[0]
+        textColorTag = '#' + textColorTag.match(/\w+/)[0]
+        item.textColor = textColorTag
+
+        // get penColor
+        var penColorTag = targetTag[i].match(/pen-color=".*?"/)[0]
+        penColorTag = penColorTag.match(/".*"/)[0]
+        penColorTag = '#' + penColorTag.match(/\w+/)[0]
+        item.penColor = penColorTag
+
+        // get brushColor
+        var brushColorTag = targetTag[i].match(/brush-color=".*?"/)[0]
+        brushColorTag = brushColorTag.match(/".*"/)[0]
+        brushColorTag = '#' + brushColorTag.match(/\w+/)[0]
+        item.brushColor = brushColorTag
+
+        // get titleSize
+        var titleSizeTag = targetTag[i].match(/title-size=".*?"/)[0]
+        titleSizeTag = titleSizeTag.match(/".*"/)[0]
+        titleSizeTag = titleSizeTag.match(/\w+/)[0]
+        item.titleSize = titleSizeTag
+
+        // get yGrid
+        var yGridTag = targetTag[i].match(/y-grid=".*?"/)[0]
+        yGridTag = yGridTag.match(/".*"/)[0]
+        yGridTag = yGridTag.match(/\w+/)[0]
+        item.yGrid = yGridTag
+
+        // get drawingOP
+        var drawingOPTag = targetTag[i].match(/drawing-OP=".*?"/)[0]
+        drawingOPTag = drawingOPTag.match(/".*"/)[0]
+        drawingOPTag = drawingOPTag.match(/\w+/)[0]
+        item.drawingOP = drawingOPTag
+
+        // push to button property
+        _pageFrame.push(item)
+    }
     return _pageFrame
 }
 
@@ -60,7 +140,7 @@ function getButton(_gxml) {
     var targetTag = _gxml.match(/<gpx:object page-title="Button"[\s\S]*?<font original="1">(<\/>){5}\s/g)[0]
     var buttonTag = targetTag.match(/<gpx:object.*"_Button"[\s\S]*?(<\/>){6}/g)
     var msgTag = targetTag.match(/<gpx:object.*"MSG"[\s\S]*?(<\/>){4}/g)
-    for (i = 0; i < buttonTag.length; i++) {
+    for (let i = 0; i < buttonTag.length; i++) {
         // Defination of item in this scope
         var item = {
             rect: [],
@@ -80,7 +160,7 @@ function getButton(_gxml) {
         // get rect
         rectTag = buttonTag[i].match(/rect=".*?"/g)[0]
         var _rect = rectTag.match(/[0-9]+/g)
-        for (var key in _rect) {
+        for (let key in _rect) {
             _rect[key] = parseInt(_rect[key])
         }
         item.rect = _rect
@@ -146,7 +226,6 @@ function getButton(_gxml) {
 
         // push to button property
         _button.push(item)
-        // console.log(item)
     }
     return _button
 }

@@ -1,8 +1,8 @@
 gpx-parser
 =========================
 
-from gxml to js object
-from gxml to json 
+1. From gxml to js object
+2. From gxml to json 
 
 ## Todo
 - [x] Button
